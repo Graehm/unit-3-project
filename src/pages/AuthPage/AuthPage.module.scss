@@ -1,0 +1,19 @@
+.AuthPage {
+    background-image: url('https://i.imgur.com/0xe4vbC.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 29vmin;
+  }
+  
+  .AuthPage h3 {
+    margin-top: 4vmin;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+  }
+

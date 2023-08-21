@@ -1,0 +1,32 @@
+.MenuListItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vmin;
+    padding: 1.7vmin;
+    background-color: var(--white);
+    border: .1vmin solid lightgray;
+    border-radius: .5vmin;
+    font-size: 4vmin;
+  }
+  
+.MenuListItem .image {
+  height: 7vmin;
+}
+  
+  .MenuListItem .buy {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .MenuListItem .buy span {
+    font-size: 1.5vmin;
+    text-align: center;
+  }
+  
+  .MenuListItem .name {
+    font-size: 1.2vw;
+    text-align: left;
+    color: black;
+  }
